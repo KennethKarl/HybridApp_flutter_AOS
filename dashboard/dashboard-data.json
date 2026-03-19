@@ -13,7 +13,7 @@
 
   "sessions": [
     {"id": 0, "name": "설계",   "status": "done",  "result": "설계완료", "lastTask": "TASK-000", "lastUpdated": "2026-03-19T12:00:00+09:00"},
-    {"id": 1, "name": "개발",   "status": "active", "result": "", "lastTask": "TASK-001", "lastUpdated": "2026-03-19T15:10:00+09:00"},
+    {"id": 1, "name": "개발",   "status": "active", "result": "", "lastTask": "TASK-013", "lastUpdated": "2026-03-19T15:10:00+09:00"},
     {"id": 2, "name": "리뷰",   "status": "idle", "result": "", "lastTask": "", "lastUpdated": ""},
     {"id": 3, "name": "테스트", "status": "idle", "result": "", "lastTask": "", "lastUpdated": ""},
     {"id": 4, "name": "성능",   "status": "idle", "result": "", "lastTask": "", "lastUpdated": ""},
@@ -29,31 +29,31 @@
         {"id": "TASK-001", "desc": "Flutter 프로젝트 생성 + 테마 설정", "status": "done"},
         {"id": "TASK-002", "desc": "데이터 모델 + Mock 데이터", "status": "done"},
         {"id": "TASK-003", "desc": "AppLayout + Header + BottomTabBar + Riverpod", "status": "done"},
-        {"id": "TASK-004", "desc": "StepCounter 위젯", "status": "in_progress"},
-        {"id": "TASK-005", "desc": "BannerSwiper 위젯", "status": "idle"},
-        {"id": "TASK-006", "desc": "HealthQuiz + SymptomSearch 위젯", "status": "idle"},
-        {"id": "TASK-007", "desc": "MainPage 통합", "status": "idle"},
-        {"id": "TASK-008", "desc": "CheckupPage (건강검진)", "status": "idle"},
-        {"id": "TASK-009", "desc": "CarePage (건강증진)", "status": "idle"},
-        {"id": "TASK-010", "desc": "DiseaseCheckPage (건강체크)", "status": "idle"},
-        {"id": "TASK-011", "desc": "MenuPage (전체)", "status": "idle"},
-        {"id": "TASK-012", "desc": "DetailModal (BottomSheet)", "status": "idle"},
-        {"id": "TASK-013", "desc": "최종 UI 보정 + MenuCard", "status": "idle"}
+        {"id": "TASK-004", "desc": "StepCounter 위젯", "status": "done"},
+        {"id": "TASK-005", "desc": "BannerSwiper 위젯", "status": "done"},
+        {"id": "TASK-006", "desc": "HealthQuiz + SymptomSearch 위젯", "status": "done"},
+        {"id": "TASK-007", "desc": "MainPage 통합", "status": "done"},
+        {"id": "TASK-008", "desc": "CheckupPage (건강검진)", "status": "done"},
+        {"id": "TASK-009", "desc": "CarePage (건강증진)", "status": "done"},
+        {"id": "TASK-010", "desc": "DiseaseCheckPage (건강체크)", "status": "done"},
+        {"id": "TASK-011", "desc": "MenuPage (전체)", "status": "done"},
+        {"id": "TASK-012", "desc": "DetailModal (BottomSheet)", "status": "done"},
+        {"id": "TASK-013", "desc": "최종 UI 보정 + MenuCard", "status": "done"}
       ]
     }
   ],
 
   "requirements": [
-    {"id": "REQ-001", "name": "프로젝트 기반 (Flutter + Riverpod + 테마)", "priority": "P0", "done": false},
-    {"id": "REQ-002", "name": "데이터 모델 + Mock 데이터", "priority": "P0", "done": false},
-    {"id": "REQ-003", "name": "앱 레이아웃 (Header + TabBar + 라우팅)", "priority": "P0", "done": false},
-    {"id": "REQ-004", "name": "홈 화면 (StepCounter, Banner, Quiz, Search)", "priority": "P0", "done": false},
-    {"id": "REQ-005", "name": "건강검진 화면", "priority": "P0", "done": false},
-    {"id": "REQ-006", "name": "건강증진 화면", "priority": "P0", "done": false},
-    {"id": "REQ-007", "name": "건강체크 화면", "priority": "P0", "done": false},
-    {"id": "REQ-008", "name": "전체 메뉴 화면", "priority": "P0", "done": false},
-    {"id": "REQ-009", "name": "공통 위젯 (DetailModal, MenuCard, BannerSwiper)", "priority": "P0", "done": false},
-    {"id": "REQ-010", "name": "최종 UI 보정 + 반응형", "priority": "P1", "done": false}
+    {"id": "REQ-001", "name": "프로젝트 기반 (Flutter + Riverpod + 테마)", "priority": "P0", "done": true},
+    {"id": "REQ-002", "name": "데이터 모델 + Mock 데이터", "priority": "P0", "done": true},
+    {"id": "REQ-003", "name": "앱 레이아웃 (Header + TabBar + 라우팅)", "priority": "P0", "done": true},
+    {"id": "REQ-004", "name": "홈 화면 (StepCounter, Banner, Quiz, Search)", "priority": "P0", "done": true},
+    {"id": "REQ-005", "name": "건강검진 화면", "priority": "P0", "done": true},
+    {"id": "REQ-006", "name": "건강증진 화면", "priority": "P0", "done": true},
+    {"id": "REQ-007", "name": "건강체크 화면", "priority": "P0", "done": true},
+    {"id": "REQ-008", "name": "전체 메뉴 화면", "priority": "P0", "done": true},
+    {"id": "REQ-009", "name": "공통 위젯 (DetailModal, MenuCard, BannerSwiper)", "priority": "P0", "done": true},
+    {"id": "REQ-010", "name": "최종 UI 보정 + 반응형", "priority": "P1", "done": true}
   ],
 
   "commits": [],
