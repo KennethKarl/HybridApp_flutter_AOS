@@ -4,16 +4,16 @@
     "platform": "Flutter (Android + iOS)",
     "version": "0.1.0",
     "versionCode": 1,
-    "lastUpdated": "2026-03-19T12:00:00+09:00",
-    "updatedBy": "session-0-design",
+    "lastUpdated": "2026-03-19T15:00:00+09:00",
+    "updatedBy": "session-1-dev",
     "currentEpic": "flutter-ui-migration",
-    "currentSubFeature": "",
-    "currentBranch": "design/epic-flutter-ui-migration"
+    "currentSubFeature": "feat-foundation",
+    "currentBranch": "epic/flutter-ui-migration-feat-foundation"
   },
 
   "sessions": [
     {"id": 0, "name": "설계",   "status": "done",  "result": "설계완료", "lastTask": "TASK-000", "lastUpdated": "2026-03-19T12:00:00+09:00"},
-    {"id": 1, "name": "개발",   "status": "idle", "result": "", "lastTask": "", "lastUpdated": ""},
+    {"id": 1, "name": "개발",   "status": "active", "result": "", "lastTask": "TASK-001", "lastUpdated": "2026-03-19T15:10:00+09:00"},
     {"id": 2, "name": "리뷰",   "status": "idle", "result": "", "lastTask": "", "lastUpdated": ""},
     {"id": 3, "name": "테스트", "status": "idle", "result": "", "lastTask": "", "lastUpdated": ""},
     {"id": 4, "name": "성능",   "status": "idle", "result": "", "lastTask": "", "lastUpdated": ""},
@@ -26,8 +26,8 @@
       "name": "flutter-ui-migration",
       "label": "Flutter UI 마이그레이션",
       "tasks": [
-        {"id": "TASK-001", "desc": "Flutter 프로젝트 생성 + 테마 설정", "status": "idle"},
-        {"id": "TASK-002", "desc": "데이터 모델 + Mock 데이터", "status": "idle"},
+        {"id": "TASK-001", "desc": "Flutter 프로젝트 생성 + 테마 설정", "status": "done"},
+        {"id": "TASK-002", "desc": "데이터 모델 + Mock 데이터", "status": "in_progress"},
         {"id": "TASK-003", "desc": "AppLayout + Header + BottomTabBar + Riverpod", "status": "idle"},
         {"id": "TASK-004", "desc": "StepCounter 위젯", "status": "idle"},
         {"id": "TASK-005", "desc": "BannerSwiper 위젯", "status": "idle"},
