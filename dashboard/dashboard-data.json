@@ -28,8 +28,8 @@
       "tasks": [
         {"id": "TASK-001", "desc": "Flutter 프로젝트 생성 + 테마 설정", "status": "done"},
         {"id": "TASK-002", "desc": "데이터 모델 + Mock 데이터", "status": "done"},
-        {"id": "TASK-003", "desc": "AppLayout + Header + BottomTabBar + Riverpod", "status": "in_progress"},
-        {"id": "TASK-004", "desc": "StepCounter 위젯", "status": "idle"},
+        {"id": "TASK-003", "desc": "AppLayout + Header + BottomTabBar + Riverpod", "status": "done"},
+        {"id": "TASK-004", "desc": "StepCounter 위젯", "status": "in_progress"},
         {"id": "TASK-005", "desc": "BannerSwiper 위젯", "status": "idle"},
         {"id": "TASK-006", "desc": "HealthQuiz + SymptomSearch 위젯", "status": "idle"},
         {"id": "TASK-007", "desc": "MainPage 통합", "status": "idle"},
