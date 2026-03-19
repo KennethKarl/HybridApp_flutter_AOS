@@ -1,0 +1,58 @@
+{
+  "_meta": {
+    "project": "HybridApp_flutter_AOS",
+    "platform": "Android",
+    "version": "0.1.0",
+    "versionCode": 1,
+    "lastUpdated": "",
+    "updatedBy": "",
+    "currentEpic": "",
+    "currentSubFeature": "",
+    "currentBranch": ""
+  },
+
+  "sessions": [
+    {"id": 0, "name": "설계",   "status": "idle", "result": "", "lastTask": "", "lastUpdated": ""},
+    {"id": 1, "name": "개발",   "status": "idle", "result": "", "lastTask": "", "lastUpdated": ""},
+    {"id": 2, "name": "리뷰",   "status": "idle", "result": "", "lastTask": "", "lastUpdated": ""},
+    {"id": 3, "name": "테스트", "status": "idle", "result": "", "lastTask": "", "lastUpdated": ""},
+    {"id": 4, "name": "성능",   "status": "idle", "result": "", "lastTask": "", "lastUpdated": ""},
+    {"id": 5, "name": "문서화", "status": "idle", "result": "", "lastTask": "", "lastUpdated": ""},
+    {"id": 6, "name": "배포",   "status": "idle", "result": "", "lastTask": "", "lastUpdated": ""}
+  ],
+
+  "epics": [],
+  "requirements": [],
+  "commits": [],
+
+  "errors": {
+    "cam":  {"name": "카메라/AI 분석", "codes": {}},
+    "aut":  {"name": "인증",          "codes": {}},
+    "net":  {"name": "네트워크",       "codes": {}},
+    "perm": {"name": "권한",          "codes": {}},
+    "wv":   {"name": "웹뷰",          "codes": {}},
+    "val":  {"name": "유효성 검사",    "codes": {}},
+    "sys":  {"name": "시스템",         "codes": {}}
+  },
+
+  "reports": [],
+  "branches": [],
+
+  "metrics": {
+    "bundleSize": "-",
+    "bundleTarget": "-",
+    "buildTime": "-",
+    "testCases": 0,
+    "testPass": 0,
+    "totalCommits": 0,
+    "coldStartTarget": "≤ 2초",
+    "memoryTarget": "≤ 200MB",
+    "crashRateTarget": "≤ 0.1%"
+  },
+
+  "nfr": [
+    {"item": "콜드 스타트", "val": "≤ 2초"},
+    {"item": "메모리",     "val": "≤ 200MB"},
+    {"item": "크래시율",   "val": "≤ 0.1%"}
+  ]
+}
