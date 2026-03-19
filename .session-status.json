@@ -1,9 +1,9 @@
 {
-  "_updated": "2026-03-20T00:30:00+09:00",
+  "_updated": "2026-03-20T01:30:00+09:00",
   "sessions": {
     "session-0-design": { "status": "done", "last_task": "TASK-000", "result": "설계완료", "last_updated": "2026-03-19 12:00", "next_session": "session-1-dev" },
     "session-1-dev":    { "status": "done", "last_task": "TASK-013", "result": "MR생성", "last_updated": "2026-03-20 00:30", "next_session": "session-2-review" },
-    "session-2-review": { "status": "idle", "last_task": "", "result": "", "last_updated": "", "next_session": "session-3-test" },
+    "session-2-review": { "status": "done", "last_task": "TASK-001~013", "result": "Approved", "last_updated": "2026-03-20 01:30", "next_session": "session-3-test" },
     "session-3-test":   { "status": "idle", "last_task": "", "result": "", "last_updated": "", "next_session": "session-4-perf" },
     "session-4-perf":   { "status": "idle", "last_task": "", "result": "", "last_updated": "", "next_session": "session-5-docs" },
     "session-5-docs":   { "status": "idle", "last_task": "", "result": "", "last_updated": "", "next_session": "session-6-deploy" },
