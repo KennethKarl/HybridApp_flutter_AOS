@@ -4,11 +4,11 @@
     "platform": "Flutter (Android + iOS)",
     "version": "0.1.0",
     "versionCode": 1,
-    "lastUpdated": "2026-03-20T05:00:00+09:00",
-    "updatedBy": "session-5-docs",
+    "lastUpdated": "2026-03-20T06:30:00+09:00",
+    "updatedBy": "session-6-deploy",
     "currentEpic": "flutter-ui-migration",
     "currentSubFeature": "feat-foundation",
-    "currentBranch": "epic/flutter-ui-migration-feat-foundation"
+    "currentBranch": "release/v0.1.0"
   },
 
   "sessions": [
@@ -18,7 +18,7 @@
     {"id": 3, "name": "테스트", "status": "done", "result": "ALL_PASS", "lastTask": "TASK-001~013", "lastUpdated": "2026-03-20T02:30:00+09:00"},
     {"id": 4, "name": "성능",   "status": "done", "result": "GOOD", "lastTask": "TASK-001~013", "lastUpdated": "2026-03-20T03:30:00+09:00"},
     {"id": 5, "name": "문서화", "status": "done", "result": "문서완료", "lastTask": "TASK-001~013", "lastUpdated": "2026-03-20T05:00:00+09:00"},
-    {"id": 6, "name": "배포",   "status": "idle", "result": "", "lastTask": "", "lastUpdated": ""}
+    {"id": 6, "name": "배포",   "status": "done", "result": "배포완료", "lastTask": "TASK-000", "lastUpdated": "2026-03-20T06:30:00+09:00"}
   ],
 
   "epics": [
@@ -69,7 +69,8 @@
     {"session": "session-2-review", "file": "reports/flutter-ui-migration/feat-foundation_review_TASK-001-013_20260320.md", "verdict": "APPROVED", "date": "2026-03-20"},
     {"session": "session-3-test", "file": "reports/flutter-ui-migration/feat-foundation_test_TASK-001-013_20260320.md", "verdict": "ALL_PASS", "date": "2026-03-20"},
     {"session": "session-4-perf", "file": "reports/flutter-ui-migration/feat-foundation_perf_TASK-001-013_20260320.md", "verdict": "GOOD", "date": "2026-03-20"},
-    {"session": "session-5-docs", "file": "reports/flutter-ui-migration/feat-foundation_docs_TASK-001-013_20260320.md", "verdict": "DONE", "date": "2026-03-20"}
+    {"session": "session-5-docs", "file": "reports/flutter-ui-migration/feat-foundation_docs_TASK-001-013_20260320.md", "verdict": "DONE", "date": "2026-03-20"},
+    {"session": "session-6-deploy", "file": "reports/deploy/v0.1.0_deploy_release_20260320.md", "verdict": "READY", "date": "2026-03-20"}
   ],
 
   "branches": [
