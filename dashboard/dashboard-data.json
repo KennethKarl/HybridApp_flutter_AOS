@@ -1,49 +1,89 @@
 {
   "_meta": {
     "project": "HybridApp_flutter_AOS",
-    "platform": "Android",
+    "platform": "Flutter (Android + iOS)",
     "version": "0.1.0",
     "versionCode": 1,
-    "lastUpdated": "",
-    "updatedBy": "",
-    "currentEpic": "",
-    "currentSubFeature": "",
-    "currentBranch": ""
+    "lastUpdated": "2026-03-20T05:00:00+09:00",
+    "updatedBy": "session-5-docs",
+    "currentEpic": "flutter-ui-migration",
+    "currentSubFeature": "feat-foundation",
+    "currentBranch": "epic/flutter-ui-migration-feat-foundation"
   },
 
   "sessions": [
-    {"id": 0, "name": "설계",   "status": "idle", "result": "", "lastTask": "", "lastUpdated": ""},
-    {"id": 1, "name": "개발",   "status": "idle", "result": "", "lastTask": "", "lastUpdated": ""},
-    {"id": 2, "name": "리뷰",   "status": "idle", "result": "", "lastTask": "", "lastUpdated": ""},
-    {"id": 3, "name": "테스트", "status": "idle", "result": "", "lastTask": "", "lastUpdated": ""},
-    {"id": 4, "name": "성능",   "status": "idle", "result": "", "lastTask": "", "lastUpdated": ""},
-    {"id": 5, "name": "문서화", "status": "idle", "result": "", "lastTask": "", "lastUpdated": ""},
+    {"id": 0, "name": "설계",   "status": "done",  "result": "설계완료", "lastTask": "TASK-000", "lastUpdated": "2026-03-19T12:00:00+09:00"},
+    {"id": 1, "name": "개발",   "status": "done", "result": "MR생성", "lastTask": "TASK-013", "lastUpdated": "2026-03-20T00:30:00+09:00"},
+    {"id": 2, "name": "리뷰",   "status": "done", "result": "Approved", "lastTask": "TASK-001~013", "lastUpdated": "2026-03-20T01:30:00+09:00"},
+    {"id": 3, "name": "테스트", "status": "done", "result": "ALL_PASS", "lastTask": "TASK-001~013", "lastUpdated": "2026-03-20T02:30:00+09:00"},
+    {"id": 4, "name": "성능",   "status": "done", "result": "GOOD", "lastTask": "TASK-001~013", "lastUpdated": "2026-03-20T03:30:00+09:00"},
+    {"id": 5, "name": "문서화", "status": "done", "result": "문서완료", "lastTask": "TASK-001~013", "lastUpdated": "2026-03-20T05:00:00+09:00"},
     {"id": 6, "name": "배포",   "status": "idle", "result": "", "lastTask": "", "lastUpdated": ""}
   ],
 
-  "epics": [],
-  "requirements": [],
+  "epics": [
+    {
+      "name": "flutter-ui-migration",
+      "label": "Flutter UI 마이그레이션",
+      "tasks": [
+        {"id": "TASK-001", "desc": "Flutter 프로젝트 생성 + 테마 설정", "status": "done"},
+        {"id": "TASK-002", "desc": "데이터 모델 + Mock 데이터", "status": "done"},
+        {"id": "TASK-003", "desc": "AppLayout + Header + BottomTabBar + Riverpod", "status": "done"},
+        {"id": "TASK-004", "desc": "StepCounter 위젯", "status": "done"},
+        {"id": "TASK-005", "desc": "BannerSwiper 위젯", "status": "done"},
+        {"id": "TASK-006", "desc": "HealthQuiz + SymptomSearch 위젯", "status": "done"},
+        {"id": "TASK-007", "desc": "MainPage 통합", "status": "done"},
+        {"id": "TASK-008", "desc": "CheckupPage (건강검진)", "status": "done"},
+        {"id": "TASK-009", "desc": "CarePage (건강증진)", "status": "done"},
+        {"id": "TASK-010", "desc": "DiseaseCheckPage (건강체크)", "status": "done"},
+        {"id": "TASK-011", "desc": "MenuPage (전체)", "status": "done"},
+        {"id": "TASK-012", "desc": "DetailModal (BottomSheet)", "status": "done"},
+        {"id": "TASK-013", "desc": "최종 UI 보정 + MenuCard", "status": "done"}
+      ]
+    }
+  ],
+
+  "requirements": [
+    {"id": "REQ-001", "name": "프로젝트 기반 (Flutter + Riverpod + 테마)", "priority": "P0", "done": true},
+    {"id": "REQ-002", "name": "데이터 모델 + Mock 데이터", "priority": "P0", "done": true},
+    {"id": "REQ-003", "name": "앱 레이아웃 (Header + TabBar + 라우팅)", "priority": "P0", "done": true},
+    {"id": "REQ-004", "name": "홈 화면 (StepCounter, Banner, Quiz, Search)", "priority": "P0", "done": true},
+    {"id": "REQ-005", "name": "건강검진 화면", "priority": "P0", "done": true},
+    {"id": "REQ-006", "name": "건강증진 화면", "priority": "P0", "done": true},
+    {"id": "REQ-007", "name": "건강체크 화면", "priority": "P0", "done": true},
+    {"id": "REQ-008", "name": "전체 메뉴 화면", "priority": "P0", "done": true},
+    {"id": "REQ-009", "name": "공통 위젯 (DetailModal, MenuCard, BannerSwiper)", "priority": "P0", "done": true},
+    {"id": "REQ-010", "name": "최종 UI 보정 + 반응형", "priority": "P1", "done": true}
+  ],
+
   "commits": [],
 
   "errors": {
-    "cam":  {"name": "카메라/AI 분석", "codes": {}},
-    "aut":  {"name": "인증",          "codes": {}},
-    "net":  {"name": "네트워크",       "codes": {}},
-    "perm": {"name": "권한",          "codes": {}},
-    "wv":   {"name": "웹뷰",          "codes": {}},
-    "val":  {"name": "유효성 검사",    "codes": {}},
-    "sys":  {"name": "시스템",         "codes": {}}
+    "ui":  {"name": "UI 렌더링", "codes": {"ui_0001_and": "탭 전환 실패", "ui_0002_and": "모달 렌더링 실패"}},
+    "dat": {"name": "데이터",    "codes": {"dat_0001_and": "Mock 데이터 로드 실패"}},
+    "net": {"name": "네트워크",   "codes": {}},
+    "sys": {"name": "시스템",     "codes": {}}
   },
 
-  "reports": [],
-  "branches": [],
+  "reports": [
+    {"session": "session-2-review", "file": "reports/flutter-ui-migration/feat-foundation_review_TASK-001-013_20260320.md", "verdict": "APPROVED", "date": "2026-03-20"},
+    {"session": "session-3-test", "file": "reports/flutter-ui-migration/feat-foundation_test_TASK-001-013_20260320.md", "verdict": "ALL_PASS", "date": "2026-03-20"},
+    {"session": "session-4-perf", "file": "reports/flutter-ui-migration/feat-foundation_perf_TASK-001-013_20260320.md", "verdict": "GOOD", "date": "2026-03-20"},
+    {"session": "session-5-docs", "file": "reports/flutter-ui-migration/feat-foundation_docs_TASK-001-013_20260320.md", "verdict": "DONE", "date": "2026-03-20"}
+  ],
+
+  "branches": [
+    {"name": "main", "status": "production"},
+    {"name": "develop", "status": "통합 (안정)"},
+    {"name": "design/epic-flutter-ui-migration", "status": "active"}
+  ],
 
   "metrics": {
-    "bundleSize": "-",
-    "bundleTarget": "-",
-    "buildTime": "-",
-    "testCases": 0,
-    "testPass": 0,
+    "bundleSize": "15.7MB (arm64)",
+    "bundleTarget": "30MB",
+    "buildTime": "5.3s (release APK)",
+    "testCases": 93,
+    "testPass": 93,
     "totalCommits": 0,
     "coldStartTarget": "≤ 2초",
     "memoryTarget": "≤ 200MB",
@@ -53,6 +93,7 @@
   "nfr": [
     {"item": "콜드 스타트", "val": "≤ 2초"},
     {"item": "메모리",     "val": "≤ 200MB"},
-    {"item": "크래시율",   "val": "≤ 0.1%"}
+    {"item": "크래시율",   "val": "≤ 0.1%"},
+    {"item": "최소 의존성", "val": "Flutter + Riverpod만"}
   ]
 }
